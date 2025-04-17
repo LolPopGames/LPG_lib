@@ -11,5 +11,7 @@
 #include <ctype.h>
 
 #include "asm_types.h"
+#include "sc_defines/systems.h"
+#include "sc_defines/compilers.h"
 
 #endif

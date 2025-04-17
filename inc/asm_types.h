@@ -1,3 +1,4 @@
+// Assembly types
 #ifndef ASM_TYPES_H_
 #define ASM_TYPES_H_
 
