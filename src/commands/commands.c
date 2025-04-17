@@ -5,6 +5,7 @@
 #include <stdarg.h>
 
 
+// system formatted (with modificators support)
 int systemf(const char *format, ...)
 {
     va_list args;
@@ -26,7 +27,7 @@ int systemf(const char *format, ...)
         return -1;
     }
     
-    vsnprintf(command, ++length, format, args_);
+    vsnprintf(command, ++length, format, args);
 
     va_end(args);
 
