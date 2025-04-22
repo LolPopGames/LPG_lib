@@ -1,5 +1,15 @@
 #include <commands/extensions.h>
 #include <string.h>
+#include <asm_types.h>
+
+// returns pointer to the position where is extension
+const char *get_ext(const char *path)
+{
+    char *path_p = path + strlen(path) -1;
+
+    while (*path_p != '.') path_p--;
+    return path_p;
+}
 
 // returns allocated string
 char *add_ext(const char *path, const char *extension)
@@ -23,6 +33,3 @@ char *add_ext(const char *path, const char *extension)
 
 // returns allocated string
 char *remove_ext(const char *path);
-
-// returns pointer to the position where is extension
-const char *get_ext(const char *path);
