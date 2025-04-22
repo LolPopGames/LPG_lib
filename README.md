@@ -2,11 +2,11 @@
 
 ## Description
 
-A library that is needed for other projects
+A library that improves anything that is needed to develop faster
 
 ## Version
 
-~~0.0.0~~
+~~0.0.0~~ (dev)
 
 ## Contact us
 
