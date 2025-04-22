@@ -1,3 +1,5 @@
+// This module is needed to manipulate with extensions
+
 #include <commands/extensions.h>
 #include <string.h>
 #include <asm_types.h>

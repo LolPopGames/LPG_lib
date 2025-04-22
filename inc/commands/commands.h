@@ -1,3 +1,5 @@
+// This module adds functions related to terminals and similar things
+
 #ifndef COMMANDS_H_
 #define COMMANDS_H_
 

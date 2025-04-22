@@ -1,3 +1,5 @@
+// This module adds functions related to terminals and similar things
+
 #include <commands/commands.h>
 #include <asm_types.h>
 #include <stdio.h>

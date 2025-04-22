@@ -1,3 +1,5 @@
+// This module is needed to manipulate with extensions
+
 #ifndef EXTENSIONS_H_
 #define EXTENSIONS_H_
 

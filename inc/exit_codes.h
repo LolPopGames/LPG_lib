@@ -1,7 +1,10 @@
+// Exit codes for the return value of functions
+// or for other actions
+
 #ifndef EXIT_CODES
 #define EXIT_CODES
 
-// EC - Exit Code
+// `EC` meands `Exit Code`
 
 #define EC_SUCCESS 0
 #define EC_FAILURE 1

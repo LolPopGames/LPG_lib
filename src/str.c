@@ -1,3 +1,5 @@
+// String module with additional features
+
 #include <str.h>
 #include <string.h>
 

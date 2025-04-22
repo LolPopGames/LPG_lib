@@ -1,4 +1,5 @@
-// String additional funcs
+// String module with additional features
+
 #ifndef STR_H_
 #define STR_H_
 
