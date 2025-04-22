@@ -8,7 +8,7 @@ const char *get_ext(const char *path)
     char *path_p = path + strlen(path) -1;
 
     while (*path_p != '.') path_p--;
-    return path_p;
+    return ++path_p;
 }
 
 // returns allocated string
@@ -32,4 +32,20 @@ char *add_ext(const char *path, const char *extension)
 }
 
 // returns allocated string
-char *remove_ext(const char *path);
+char *remove_ext(const char *path)
+{
+    const qword path_len = strlen(path);
+
+    char *result = malloc(
+        strlen(path) - strlen(get_ext(path)) - sizeof('.') + sizeof('\0')
+    );
+
+    qword i=0;
+    while (path[i] != '.')
+    {
+        result[i] = path[i];
+        i++;
+    }
+
+    return result;
+}
