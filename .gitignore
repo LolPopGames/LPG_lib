@@ -1,0 +1,11 @@
+# Apps data
+.vscode/
+
+# Builds
+build/
+*.o
+*.elf
+*.a
+
+# Other
+.ignore.*
