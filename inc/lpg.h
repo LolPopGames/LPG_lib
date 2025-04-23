@@ -18,5 +18,6 @@
 #include "sc_defines/systems.h"
 #include "sc_defines/compilers.h"
 #include "commands/commands.h"
+#include "commands/extensions.h"
 
 #endif
