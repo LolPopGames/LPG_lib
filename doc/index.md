@@ -1,8 +1,8 @@
-# LPG lib documentation
+# Documentation
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 25px">
-  <a href="#">ru</a> <!-- Will be later -->
-  <p style="text-align: right; color: gray; font-size: 15px;"><a href="/README.md">/</a>doc</p>
+  <a href="/doc/ru/index.md">ru</a>
+  <p style="text-align: right; color: gray; font-size: 15px; font-family: 'Jetbrains Mono', Arial"><a href="/README.md">/</a>doc</p>
 </div>
 
 Welcome to the documentation of `LPG_lib`!
