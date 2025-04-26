@@ -32,3 +32,20 @@
 2. Далее напишите относительный путь до директории, где будет эта библиотека,
 во флаге `-L` (например, `-LLPG_lib/build` либо `-L LPG_lib/build`)
 3. И напишите название библиотеки во флаге `-l` без префикса `lib` и без расширения (в нашем случае `-llpg`)
+
+## Примеры
+
+```bash
+$ gcc -Wall -Wextra -c main.c -o main.o
+$ gcc main.o -L LPG_lib/build -llpg -o main 
+```
+
+```bash
+$ gcc -c file1.c -o file1.o
+$ gcc -c file2.c -o file2.o
+$ gcc file1.o file2.o -L LPG_lib/build -llpg -o program
+```
+
+```bash
+$ gcc main.c file1.c -L. -llpg -o test
+```

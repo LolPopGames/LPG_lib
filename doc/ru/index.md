@@ -15,7 +15,7 @@
 
 Вы можете посмотреть следующие места:
 
-+ [прочти меня](/README.md)
-+ [лицензия](/LICENCE.md)
++ [прочти меня](/doc/ru/root/README.md)
++ [лицензия](/doc/ru/root/LICENCE.md)
 + [как использовать](/doc/ru/how_to_use.md)
 + [компиляция](/doc/ru/compilation.md)
