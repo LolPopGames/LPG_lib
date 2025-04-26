@@ -18,4 +18,4 @@
 + [прочти меня](/README.md)
 + [лицензия](/LICENCE.md)
 + [как использовать](/doc/ru/how_to_use.md)
-+ [как компилировать библиотеку](/doc/ru/compilation.md)
++ [компиляция](/doc/ru/compilation.md)
