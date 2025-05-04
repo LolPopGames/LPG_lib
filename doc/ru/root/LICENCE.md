@@ -1,7 +1,7 @@
 # MIT Лицензия (MIT)
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 25px">
-  <a href="/README.md">en</a>
+  <a href="/LICENCE.md">en</a>
 
   <p style="text-align: right;
             color: gray;
