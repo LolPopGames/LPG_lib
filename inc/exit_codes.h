@@ -4,7 +4,7 @@
 #ifndef EXIT_CODES
 #define EXIT_CODES
 
-// `EC` meands `Exit Code`
+// `EC` means `Exit Code`
 
 #define EC_SUCCESS 0
 #define EC_FAILURE 1

@@ -10,8 +10,8 @@ const char *get_ext(const char *path)
 {
     char *path_p = (char *)path + strlen(path) -1;
 
-    while (*path_p != '.') path_p--;
-    return ++path_p;
+    while (*path_p != '.' && path_p >= path) path_p--;
+    return (path_p >= path) ? ++path_p : NULL;
 }
 
 // returns allocated string
