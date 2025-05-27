@@ -15,7 +15,7 @@ sqword ch_find(const char *str, char ch);
 
 Возвращаемое значение:
 
-> Тип данных: `sqword` (aka `long long`)
+> Тип данных: [`sqword`](/doc/ru/api/asm_types.md) (aka `long long`)
 >
 > Индекс **первого** нужного символа
 >

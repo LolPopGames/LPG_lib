@@ -1,6 +1,6 @@
 # `str_find()` function
 
-languages: **en**, [ru](/doc/api/str/str_find.md)\
+languages: **en**, [ru](/doc/ru/api/str/str_find.md)\
 path: [/](/README.md)[doc/](/doc/index.md)[api/](/doc/api/index.md)[str/](/doc/api/str/index.md)str_find
 
 ## Description
@@ -15,7 +15,7 @@ sqword str_find(const char *str, const char *sub_str);
 
 Return value:
 
-> Type: `sqword` (aka `long long`)
+> Type: [`sqword`](/doc/api/asm_types.md) (aka `long long`)
 >
 > Index of the **first** matching substring
 >

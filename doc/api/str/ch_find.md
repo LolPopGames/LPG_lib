@@ -15,7 +15,7 @@ sqword ch_find(const char *str, char ch);
 
 Return value:
 
-> Type: `sqword` (aka `long long`)
+> Type: [`sqword`](/doc/api/asm_types.md) (aka `long long`)
 >
 > Index of the **first** matching character
 >
