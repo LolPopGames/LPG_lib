@@ -1,17 +1,11 @@
 # API
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 25px">
-  <a href="/doc/api/index.md">en</a>
+языки: [en](/doc/api/index.md), **ru**\
+путь: [/](/README.md)[doc/](/doc/index.md)[ru/](/doc/ru/index.md)api
 
-  <p style="text-align: right;
-            color: gray;
-            font-size: 15px;
-            font-family: 'Jetbrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace, Arial">
-      <a href="/README.md">/</a><a href="/doc/index.md">doc/</a><a href="/doc/ru/index.md">ru/</a>api
-  </p>
-</div>
+---
 
-Вы можете посмотреть все возможности этой библиотеки тут:
+Вы можете прочитать все возможности этой библиотеки тут:
 
 + [типы данных из языка ассемблера](/doc/ru/api/asm_types.md)
 + [коды выхода](/doc/ru/api/exit_codes.md)

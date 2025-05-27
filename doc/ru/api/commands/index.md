@@ -1,15 +1,7 @@
-# Комманды и терминалы
+# Команды и терминалы
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 25px">
-  <a href="/doc/ru/api/commands/.md">en</a>
-
-  <p style="text-align: right;
-            color: gray;
-            font-size: 15px;
-            font-family: 'Jetbrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace, Arial">
-      <a href="/README.md">/</a><a href="/doc/index.md">doc/</a><a href="/doc/ru/index.md">ru/</a><a href="/doc/ru/api/index.md">api/</a>commands
-  </p>
-</div>
+языки: [en](/doc/api/commands/index.md), **ru**\
+путь: [/](/README.md)[doc/](/doc/index.md)[ru/](/doc/ru/index.md)[api/](/doc/ru/api/index.md)commands
 
 ## Описание
 
@@ -20,7 +12,7 @@
 
 Вы можете посмотреть следующие модули:
 
-+ [комманды](/doc/ru/api/commands/commands/index.md)
++ [команды](/doc/ru/api/commands/commands/index.md)
 + [расширения файлов](/doc/ru/api/commands/extensions/index.md)
 
 ## Как включить

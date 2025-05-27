@@ -1,15 +1,7 @@
 # Типы данных языка ассемблера
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 25px">
-  <a href="/doc/api/asm_types.md">en</a>
-
-  <p style="text-align: right;
-            color: gray;
-            font-size: 15px;
-            font-family: 'Jetbrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace, Arial">
-      <a href="/README.md">/</a><a href="/doc/index.md">doc/</a><a href="/doc/ru/index.md">ru/</a><a href="/doc/ru/api/index.md">api/</a>asm_types
-  </p>
-</div>
+языки: [en](/doc/api/asm_types.md), **ru**\
+путь: [/](/README.md)[doc/](/doc/index.md)[ru/](/doc/ru/index.md)[api/](/doc/ru/api/index.md)asm_types
 
 ## Описание
 

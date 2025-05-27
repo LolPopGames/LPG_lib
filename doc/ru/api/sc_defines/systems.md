@@ -1,15 +1,9 @@
 # Макросы для систем
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 25px">
-  <a href="/doc/sc_defines/systems.md">en</a>
+языки: [en](/doc/sc_defines/systems.md), **ru**\
+путь: [/](/README.md)[doc/](/doc/index.md)[ru/](/doc/ru/index.md)[api/](/doc/ru/api/index.md)[sc_defines/](/doc/ru/api/sc_defines/index.md)systems
 
-  <p style="text-align: right;
-            color: gray;
-            font-size: 15px;
-            font-family: 'Jetbrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace, Arial">
-      <a href="/README.md">/</a><a href="/doc/index.md">doc/</a><a href="/doc/ru/index.md">ru/</a><a href="/doc/ru/api/index.md">api/</a><a href="/doc/ru/api/sc_defines/index.md">sc_defines/</a>systems
-  </p>
-</div>
+---
 
 Существует множество разных систем,
 и для каждой есть свой макрос чтобы определить её
@@ -68,7 +62,7 @@
 + Уровень 3:
     + `UNIX` - Unix
 
-## Использование
+## Как включить
 
 Чтобы добавить этот заголовочный файл,
 напишите в Вашем коде следующее:

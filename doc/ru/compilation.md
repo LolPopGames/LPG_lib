@@ -1,15 +1,9 @@
 # Компиляция
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 25px">
-  <a href="/doc/compilation.md">en</a>
+языки: [en](/doc/compilation.md), **ru**\
+путь: [/](/README.md)[doc/](/doc/index.md)[ru/](/doc/ru/index.md)compilation
 
-  <p style="text-align: right;
-            color: gray;
-            font-size: 15px;
-            font-family: 'Jetbrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace, Arial">
-      <a href="/README.md">/</a><a href="/doc/index.md">doc/</a><a href="/doc/ru/index.md">ru/</a>compilation
-  </p>
-</div>
+---
 
 Чтобы скомпилировать библиотеку, Вам требуется использовать `Makefile`
 

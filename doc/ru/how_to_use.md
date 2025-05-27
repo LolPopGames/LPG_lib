@@ -1,15 +1,9 @@
 # Как использовать
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 25px">
-  <a href="/doc/how_to_use.md">en</a>
+языки: [en](/doc/how_to_use.md), **ru**\
+путь: [/](/README.md)[doc/](/doc/index.md)[ru/](/doc/ru/index.md)how_to_use
 
-  <p style="text-align: right;
-            color: gray;
-            font-size: 15px;
-            font-family: 'Jetbrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace, Arial">
-      <a href="/README.md">/</a><a href="/doc/index.md">doc/</a><a href="/doc/ru/index.md">ru/</a>how_to_use
-  </p>
-</div>
+---
 
 Все заголовочные файлы находятся в директории `inc/`
 

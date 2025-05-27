@@ -1,25 +1,28 @@
+[![version 0.0.0d](https://img.shields.io/badge/version-0.0.0d-orange)](#version) <!-- green: stable, blue: beta, orange: dev -->
+[![contact us](https://img.shields.io/badge/contact_us-gray?logo=gmail)](mailto:github.contact.lpg13.artiom@gmail.com)
+[![documentation](https://img.shields.io/badge/documentation-gray)](#documentation)
 # LPG_LIB
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 25px">
-  <a href="/doc/ru/root/README.md">ru</a>
+TOC:
++ [LPG\_LIB](#lpg_lib)
+  + [Description](#description)
+  + [Documentation](#documentation)
+  + [Version](#version)
+  + [Contact us](#contact-us)
 
-  <p style="text-align: right;
-            color: gray;
-            font-size: 15px;
-            font-family: 'Jetbrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace, Arial">
-      /
-  </p>
-</div>
+languages: **en**, [ru](/doc/ru/root/README.md)
+
+path: /
 
 ## Description
 
 A library that improves anything that is needed to develop faster
 
-There are all things that constantly need to implement in **C**
+There are a lot of things that constantly need to implement in **C**
 
 ## Documentation
 
-You can see this sections of the project documentation:
+You can visit this parts of the project documentation:
 
 + [documentation](/doc/index.md)
 + [licence](/LICENCE.md)

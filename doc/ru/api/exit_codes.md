@@ -1,15 +1,7 @@
 # Коды выхода
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 25px">
-  <a href="/doc/api/exit_codes.md">en</a>
-
-  <p style="text-align: right;
-            color: gray;
-            font-size: 15px;
-            font-family: 'Jetbrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace, Arial">
-      <a href="/README.md">/</a><a href="/doc/index.md">doc/</a><a href="/doc/ru/index.md">ru/</a><a href="/doc/ru/api/index.md">api/</a>exit_codes
-  </p>
-</div>
+языки: [en](/doc/api/exit_codes.md), **ru**\
+путь: [/](/README.md)[doc/](/doc/index.md)[ru/](/doc/ru/index.md)[api/](/doc/ru/api/index.md)exit_codes
 
 ## Описание
 

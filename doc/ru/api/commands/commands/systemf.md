@@ -1,15 +1,7 @@
 # Функция `systemf()`
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 25px">
-  <a href="/doc/ru/api/commands/commands/systemf.md">en</a>
-
-  <p style="text-align: right;
-            color: gray;
-            font-size: 15px;
-            font-family: 'Jetbrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace, Arial">
-      <a href="/README.md">/</a><a href="/doc/index.md">doc/</a><a href="/doc/ru/index.md">ru/</a><a href="/doc/ru/api/index.md">api/</a><a href="/doc/ru/api/commands/index.md">commands/</a><a href="/doc/ru/api/commands/commands/index.md">commands/</a><a herf="/doc/ru/api/commands/commands/systemf.md">systemf</a>
-  </p>
-</div>
+языки: [en](/doc/api/commands/commands/systemf.md), **ru**\
+путь: [/](/README.md)[doc/](/doc/index.md)[ru/](/doc/ru/index.md)[api/](/doc/ru/api/index.md)[commands/](/doc/ru/api/commands/index.md)[commands/](/doc/ru/api/commands/commands/index.md)systemf
 
 ## Описание
 
@@ -29,16 +21,17 @@ int systemf(const char *format, ...);
 
 > Тип данных: `int`
 >
-> Код выхода (копируется из команды `system()`)
+> Код выхода (копируется из функции `system()`)
 
 Параметр `format`:
 
 > Тип данных: `const char *`
 >
-> Комманда для выполнения (как в `system()`),
+> команда для выполнения (как в `system()`),
 > но с поддержкой модификаторов
 
 Переменные аргументы `...`:
+
 > Параметры, заменяющие модификаторы
 >
 > Тип данных каждого параметра должен

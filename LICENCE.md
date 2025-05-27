@@ -1,17 +1,11 @@
 # The MIT License (MIT)
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 25px">
-  <a href="/doc/ru/root/LICENCE.md">ru</a>
-
-  <p style="text-align: right;
-            color: gray;
-            font-size: 15px;
-            font-family: 'Jetbrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace, Arial">
-      <a href="/README.md">/</a><a herf="/LICENCE.md">licence</a>
-  </p>
-</div>
+languages: **en**, [ru](/doc/ru/root/LICENCE.md)\
+path: [/](/README.md)licence
 
 Copyright © 2025, [LolPopGames](mailto:github.contact.lpg13.artiom@gmail.com)
+
+---
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,15 +1,19 @@
+[![version 0.0.0d](https://img.shields.io/badge/version-0.0.0d-orange)](#version) <!-- green: stable, blue: beta, orange: dev -->
+[![contact us](https://img.shields.io/badge/contact_us-gray?logo=gmail)](mailto:github.contact.lpg13.artiom@gmail.com)
+[![documentation](https://img.shields.io/badge/documentation-gray)](#documentation)
+
 # LPG_LIB
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 25px">
-  <a href="/README.md">en</a>
+Содержание:
++ [LPG\_LIB](#lpg_lib)
+  + [Описание](#описание)
+  + [Документация](#документация)
+  + [Версия](#версия)
+  + [Связаться со мной](#связаться-со-мной)
 
-  <p style="text-align: right;
-            color: gray;
-            font-size: 15px;
-            font-family: 'Jetbrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace, Arial">
-      <a href="/README.md">/</a><a href="/doc/index.md">doc/</a><a href="/doc/ru/index.md">ru/</a>root
-  </p>
-</div>
+языки: [en](/README.md), **ru**
+
+путь: [/](/README.md)[doc/](/doc/index.md)[ru/](/doc/ru/index.md)root
 
 ## Описание
 
