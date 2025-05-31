@@ -21,13 +21,23 @@ Return value:
 >
 > Represents the file _name/path_ with the added extension
 >
+> If memory allocation was failed, the value is `NULL`
+>
+> Or if the parameter `path` or `extension` is `NULL`
+>
 > Don't forget to free the memory using `free()`
 
 Parameter `path`:
 
 > Type: `const char *`
 >
-> The file _name/path_ from which the extension needs to be removed
+> The file _name/path_ to which the extension needs to be added
+
+Parameter `extension`:
+
+> Type: `const char *`
+>
+> The extension to add
 
 ## Examples
 

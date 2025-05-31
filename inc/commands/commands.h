@@ -6,4 +6,4 @@
 // system formatted (with modificators support)
 int systemf(const char *format, ...);
 
-#endif
+#endif /* COMMANDS_H_ */

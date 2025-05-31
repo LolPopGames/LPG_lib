@@ -5,7 +5,9 @@
 #include <string.h>
 #include <stdlib.h>
 
+// gets extension of the file name/path
 // returns pointer to the position where is extension
+// param `path` - file name/path
 const char *get_ext(const char *path)
 {
     if (!path) return NULL;
@@ -16,9 +18,15 @@ const char *get_ext(const char *path)
     return (path_p >= path) ? ++path_p : NULL;
 }
 
-// returns allocated string
+// adds extension to a file name/path
+// returns dynamic memory allocated string,
+// returns `NULL` if allocation failed
+// param `path` - file name/path,
+// param `extension` - extension to add
 char *add_ext(const char *path, const char *extension)
 {
+    if (!path || !extension) return NULL;
+
     char *result = malloc(
         strlen(path)*sizeof(char) + sizeof('.') + strlen(extension)*sizeof(char) + sizeof('\0')
     );
@@ -37,7 +45,11 @@ char *add_ext(const char *path, const char *extension)
     return result;
 }
 
-// returns allocated string
+// removes extension from a file name/path
+// returns dynamic memory allocated string,
+// returns `NULL` if allocation failed,
+// or if the `path` has no extension
+// param `path` - file name/path
 char *remove_ext(const char *path)
 {
     char *path_p = get_ext(path);

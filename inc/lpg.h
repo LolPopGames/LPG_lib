@@ -20,4 +20,4 @@
 #include "commands/commands.h"
 #include "commands/extensions.h"
 
-#endif
+#endif /* LPG_H_ */

@@ -15,4 +15,4 @@ typedef signed short sword;
 typedef signed int sdword;
 typedef signed long long sqword;
 
-#endif
+#endif /* ASM_TYPES_H_ */

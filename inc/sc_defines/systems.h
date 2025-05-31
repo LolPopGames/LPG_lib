@@ -3,7 +3,7 @@
 #ifndef SYSTEMS_H_
 #define SYSTEMS_H_
 
-// Situational systems
+// Level 1
 #if defined(_WIN32) || defined(_WIN64)
     #define WINDOWS
 
@@ -31,22 +31,23 @@
 #elif defined(__CYGWIN__)
     #define CYGWIN
 
-#endif
+#endif /* Level 1 */
 
 
-// System types
+// Level 2
 #if defined(__linux__) || defined(__gnu_linux__) || defined(__linux) || defined(linux)
     #define LINUX
 
 #elif defined(__APPLE__)
     #define APPLE
 
-#endif
+#endif /* Level 2 */
 
 
-// Main type
+// Level 3
 #if defined(__unix__) || defined(__unix)
     #define UNIX
-#endif
+#endif /* Level 3 */
 
-#endif
+
+#endif /* SYSTEMS_H_ */

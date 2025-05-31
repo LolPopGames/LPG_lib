@@ -22,6 +22,10 @@ Return value:
 > Represents the file _name/path_ with the extension removed
 >
 > If there was no extension, returns `NULL`
+> 
+> Or if the memory allocation fails
+>
+> Or if the `path` is `NULL`
 >
 > Don't forget to free the memory using `free()`
 

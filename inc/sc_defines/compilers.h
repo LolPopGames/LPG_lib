@@ -3,7 +3,7 @@
 #ifndef COMPILERS_H_
 #define COMPILERS_H_
 
-// Situational compilers
+// Level 1
 #if defined(__MINGW32__) || defined(__MINGW64__)
     #define MINGW
 
@@ -46,18 +46,18 @@
 #elif defined(__CRAYC)
     #define CRAYC
 
-#endif
+#endif /* Level 1 */
 
 
-// Clang
+// Level 2
 #if defined(__clang__) || defined(__clang_major__) || defined(__clang_minor__) || defined(__clang_patchlevel__)
     #define CLANG
-#endif
+#endif /* Level 2 */
 
 
-// GCC
+// Level 3
 #if defined(__GNUC__) || defined(__GNUC_MINOR__) || defined(__GNUC_PATCHLEVEL__)
     #define GCC
-#endif
+#endif /* Level 3 */
 
-#endif
+#endif /* COMPILERS_H_ */
