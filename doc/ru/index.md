@@ -11,6 +11,7 @@
 
 + [прочти меня](/doc/ru/root/README.md)
 + [лицензия](/doc/ru/root/LICENCE.md)
++ [изменения](/doc/ru/root/CHANGELOG.md)
 + [как использовать](/doc/ru/how_to_use.md)
 + [компиляция](/doc/ru/compilation.md)
 + [api](/doc/ru/api/index.md)

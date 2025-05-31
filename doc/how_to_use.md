@@ -44,3 +44,5 @@ $ gcc file1.o file2.o -L LPG_lib/build -llpg -o program
 ```bash
 $ gcc main.c file1.c -L. -llpg -o test
 ```
+
+> Note: the library must be added after the _source/object_ files

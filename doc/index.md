@@ -11,6 +11,7 @@ You can see this places:
 
 + [readme](/README.md)
 + [licence](/LICENCE.md)
++ [changelog](/CHANGELOG.md)
 + [how to use](/doc/how_to_use.md)
 + [compilation](/doc/compilation.md)
 + [api](/doc/api/index.md)

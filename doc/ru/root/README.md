@@ -1,4 +1,4 @@
-[![version 0.0.0d](https://img.shields.io/badge/version-0.0.0d-orange)](#version) <!-- green: stable, blue: beta, orange: dev -->
+[![version 0.1.0](https://img.shields.io/badge/version-0.1.0-green)](#version) <!-- green: stable, blue: beta, orange: dev -->
 [![contact us](https://img.shields.io/badge/contact_us-gray?logo=gmail)](mailto:github.contact.lpg13.artiom@gmail.com)
 [![documentation](https://img.shields.io/badge/documentation-gray)](#documentation)
 
@@ -28,10 +28,13 @@
 
 + [документация](/doc/ru/index.md)
 + [лицензия](/doc/ru/root/LICENCE.md)
++ [изменения](/doc/ru/root/CHANGELOG.md)
++ [компиляция](/doc/ru/compilation.md)
++ [как использовать](/doc/ru/how_to_use.md)
 
 ## Версия
 
-~~0.0.0~~ (разработка)
+0.1.0
 
 ## Связаться со мной
 
