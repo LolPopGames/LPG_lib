@@ -4,6 +4,7 @@
 #include <asm_types.h>
 #include <string.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 // gets extension of the file name/path
 // returns pointer to the position where is extension
@@ -52,22 +53,24 @@ char *add_ext(const char *path, const char *extension)
 // param `path` - file name/path
 char *remove_ext(const char *path)
 {
-    char *path_p = get_ext(path);
+    if (!path) return NULL;
+
+    const char *path_p = get_ext(path);
     if (!path_p) return NULL;
 
-    char *result = malloc(
-        strlen(path) - strlen(path_p) - sizeof('.') + sizeof('\0')
+    char *result = calloc(
+        strlen(path) - strlen(path_p) - sizeof('.') + sizeof('\0'),
+        sizeof(char)
     );
     if (!result) return NULL;
 
     path_p -= 2;
 
     qword i=path_p - path;
-    while (i)
+    while (true)
     {
         result[i] = path[i];
+        if (!i) return result;
         i--;
     }
-
-    return result;
 }
