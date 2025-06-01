@@ -11,7 +11,7 @@ LIB_FILE = $(BUILD_DIR)/$(LIB_NAME)$(LIB_EXT)
 # Compiler and flags
 CC = gcc
 AR = ar rcs
-CFLAGS = -Wall -Wextra -Iinc -Lbuild
+CFLAGS = -Wall -Wextra -Iinc
 DEBUG_FLAGS = -g3
 
 # Sources
