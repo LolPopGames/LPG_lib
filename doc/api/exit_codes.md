@@ -16,21 +16,22 @@ Following exit codes are:
 + `EC_FAILURE` == `1` (Failure)
 +
 + `EC_INVALID_ARGUMENT` == `2` (Invalid argument)
++ `EC_ARGUMENT_NOT_FOUND` == `3` (Argument(s) not found)
 + 
-+ `EC_FILE_NOT_FOUND` == `3` (File not found)
-+ `EC_CANNOT_OPEN_FILE` == `4` (Cannot open file)
-+ `EC_CANNOT_READ_FILE` == `5` (Cannot read file)
-+ `EC_CANNOT_WRITE_FILE` == `6` (Cannot write to file)
++ `EC_FILE_NOT_FOUND` == `4` (File not found)
++ `EC_CANNOT_OPEN_FILE` == `5` (Cannot open file)
++ `EC_CANNOT_READ_FILE` == `6` (Cannot read file)
++ `EC_CANNOT_WRITE_FILE` == `7` (Cannot write to file)
 + 
-+ `EC_FAILED_MEMORY_ALLOCATION` == `7` (Failed dynamic memory allocation)
-+ `EC_NULL_POINTER_ERROR` == `8` (Null pointer error)
++ `EC_FAILED_MEMORY_ALLOCATION` == `8` (Failed dynamic memory allocation)
++ `EC_NULL_POINTER_ERROR` == `9` (Null pointer error)
 + 
-+ `EC_DIVISION_BY_ZERO` == `9` (Division by zero)
-+ `EC_TIMEOUT` == `10` (Timeout)
-+ `EC_UNSUPPORTED` == `11` (Unsupported)
-+ `EC_INTERNAL` == `12` (Time internal error)
-+ `EC_IO_ERROR` == `13` (Input/output error)
-+ `EC_PERMISSION_DENIED` == `14` (Permission denied)
++ `EC_DIVISION_BY_ZERO` == `10` (Division by zero)
++ `EC_TIMEOUT` == `11` (Timeout)
++ `EC_UNSUPPORTED` == `12` (Unsupported)
++ `EC_INTERNAL` == `13` (Time internal error)
++ `EC_IO_ERROR` == `14` (Input/output error)
++ `EC_PERMISSION_DENIED` == `15` (Permission denied)
 
 ## How to enable
 
