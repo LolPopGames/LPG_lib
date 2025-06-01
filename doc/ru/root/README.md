@@ -1,6 +1,8 @@
-[![version 0.1.0](https://img.shields.io/badge/version-0.1.0-green)](#version) <!-- green: stable, blue: beta, orange: dev -->
-[![contact us](https://img.shields.io/badge/contact_us-gray?logo=gmail)](mailto:github.contact.lpg13.artiom@gmail.com)
-[![documentation](https://img.shields.io/badge/documentation-gray)](#documentation)
+[![версия 0.1.1](https://img.shields.io/badge/version-0.1.1-green)](#версия) <!-- green: stable, blue: beta, orange: dev -->
+[![связаться со мной](https://img.shields.io/badge/contact_us-gray?logo=gmail)](mailto:github.contact.lpg13.artiom@gmail.com)
+[![документация](https://img.shields.io/badge/documentation-blue)](/doc/ru/index.md)
+[![лицензия](https://img.shields.io/badge/licence-red)](/doc/ru/root/LICENCE.md)
+[![изменения](https://img.shields.io/badge/changelog-brightgreen)](/doc/ru/root/CHANGELOG.md)
 
 # LPG_LIB
 
