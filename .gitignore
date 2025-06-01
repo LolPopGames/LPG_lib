@@ -6,6 +6,7 @@ build/
 *.o
 *.elf
 *.a
+*.so
 
 # Other
 .ignore.*
